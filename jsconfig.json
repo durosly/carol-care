@@ -1,7 +1,9 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
-    }
-  }
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./*"],
+			"@/public/*": ["./public/*"],
+			"@/logos/*": ["./public/images/logos/*"]
+		}
+	}
 }
