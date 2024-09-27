@@ -158,19 +158,19 @@ function AboutUsPage() {
 				</div>
 			</section>
 
-			<section class="pt-20">
-				<div class="flex flex-wrap md:flex-nowrap w-full p-5">
-					<div class="flex flex-col p-5 items-center justify-center w-full lg:w-1/2">
-						<h2 class="text-4xl tracking-widest uppercase pb-5">Get in Touch</h2>
-						<p class="leading-8 mb-12">
+			<section className="pt-20">
+				<div className="flex flex-wrap md:flex-nowrap w-full p-5">
+					<div className="flex flex-col p-5 items-center justify-center w-full lg:w-1/2">
+						<h2 className="text-4xl tracking-widest uppercase pb-5">Get in Touch</h2>
+						<p className="leading-8 mb-12">
 							We&apos;d love to hear from you! Whether you&apos;re interested in our catering, cleaning, or staffing services, or just
 							want to learn more about how we can assist, you can reach us through our social media platforms or contact us directly.
 						</p>
 					</div>
-					<div class="flex items-center justify-center p-5 mx-auto w-full h-52 lg:h-auto lg:w-1/2 relative rounded-md overflow-hidden">
+					<div className="flex items-center justify-center p-5 mx-auto w-full h-52 lg:h-auto lg:w-1/2 relative rounded-md overflow-hidden">
 						<Image
 							alt="Menu Link Image"
-							class="object-cover"
+							className="object-cover"
 							fill
 							src="https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						/>

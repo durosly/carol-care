@@ -32,10 +32,10 @@ function Footer() {
 						<li>9 Clutterbuck Lane, Ajax Ontario, Canada</li>
 						<li className="font-sans  font-bold text-lg py-2">Phone / Email :</li>
 						<li>
-							<a href="tel:+234742742642">+234 742 742 642</a>
+							<a href="tel:+16475512566">+16475512566</a>
 						</li>
 						<li>
-							<a href="mailto:info@carolcars.com">info@carolcars.com</a>
+							<a href="mailto:info@carolcares.com">info@carolcares.com</a>
 						</li>
 					</ul>
 				</div>

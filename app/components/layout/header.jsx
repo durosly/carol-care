@@ -3,11 +3,20 @@ import LogoMainImg from "@/logos/logo-white.png";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Header() {
 	const path = usePathname();
 	const [showNav, setShowNav] = useState(false);
+
+	useEffect(() => {
+		// You can now use the current URL
+		if (typeof window !== "undefined") {
+			if (showNav) setShowNav(false);
+		}
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [path]);
+
 	return (
 		<header className={`relative flex ${path === "/" ? "h-screen" : ""}  w-full overflow-hidden font-sans`}>
 			<nav
@@ -20,11 +29,11 @@ function Header() {
 					</Link>
 					<div className="hidden lg:block">
 						<ul className="flex">
-							{/* <li className="px-4 py-4">
+							<li className="px-4 py-4">
 								<Link href="/menu" className="tracking-widest font-thin">
 									MENU
 								</Link>
-							</li> */}
+							</li>
 							<li className="px-4 py-4">
 								<Link href="/about-us" className="tracking-widest">
 									ABOUT US
@@ -67,13 +76,13 @@ function Header() {
 									HOME
 								</Link>
 							</li>
-							{/* <li className="mr-3">
+							<li className="mr-3">
 								<Link
 									className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
-									href="meniu.html">
+									href="/menu">
 									MENU
 								</Link>
-							</li> */}
+							</li>
 							<li className="mr-3">
 								<Link
 									className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"

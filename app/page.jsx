@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 // import Link from "next/link";
 
 export default function Home() {
@@ -24,13 +25,14 @@ export default function Home() {
 								favorites, our catering services bring culinary excellence to your events. Whether you&apos;re hosting a small
 								gathering or a large celebration, our team ensures a dining experience that&apos;s unforgettable.
 							</p>
-							{/* <button className="px-3 py-4">
+
+							<div className="px-3 py-4">
 								<Link
-									className="px-3 py-4 bg-black text-white font-sans uppercase tracking-widest border hover:text-black hover:bg-white hover:border-black transition duration-300 rounded-md"
+									className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 uppercase"
 									href="/menu">
 									Go to menu
 								</Link>
-							</button> */}
+							</div>
 						</div>
 					</div>
 				</section>
