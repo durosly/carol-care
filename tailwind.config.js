@@ -8,6 +8,20 @@ module.exports = {
 				"brand-primary": "#38ad44",
 				"brand-secondary": "#009f93",
 			},
+
+			animation: {
+				shimmer: "shimmer 2s linear infinite",
+			},
+			keyframes: {
+				shimmer: {
+					from: {
+						backgroundPosition: "0 0",
+					},
+					to: {
+						backgroundPosition: "-200% 0",
+					},
+				},
+			},
 		},
 		fontFamily: {
 			sans: ["var(--font-daikon)"],
