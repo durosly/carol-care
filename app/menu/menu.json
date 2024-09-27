@@ -1,0 +1,94 @@
+{
+	"menu": [
+		{
+			"category": "Appetizers",
+			"dishes": [
+				{
+					"title": "Bruschetta",
+					"image": "https://images.pexels.com/photos/8634508/pexels-photo-8634508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Grilled bread topped with diced tomatoes, garlic, and basil."
+				},
+				{
+					"title": "Stuffed Mushrooms",
+					"image": "https://images.pexels.com/photos/4013340/pexels-photo-4013340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Mushrooms stuffed with cheese and herbs, baked to perfection."
+				}
+			]
+		},
+		{
+			"category": "Salads",
+			"dishes": [
+				{
+					"title": "Caesar Salad",
+					"image": "https://images.pexels.com/photos/4198024/pexels-photo-4198024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Classic Caesar salad with romaine lettuce, croutons, and Caesar dressing."
+				},
+				{
+					"title": "Greek Salad",
+					"image": "https://images.pexels.com/photos/724669/pexels-photo-724669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Fresh cucumbers, tomatoes, olives, and feta cheese drizzled with olive oil."
+				},
+				{
+					"title": "Caprese Salad",
+					"image": "https://images.pexels.com/photos/5639966/pexels-photo-5639966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Tomato and mozzarella slices topped with basil and balsamic reduction."
+				}
+			]
+		},
+		{
+			"category": "Main Course",
+			"dishes": [
+				{
+					"title": "Grilled Salmon",
+					"image": "https://images.pexels.com/photos/8696533/pexels-photo-8696533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Freshly grilled salmon fillet served with lemon and herbs."
+				},
+				{
+					"title": "Spaghetti Carbonara",
+					"image": "https://images.pexels.com/photos/10000000/pexels-photo-10000000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Pasta with a creamy sauce made with eggs, cheese, and pancetta."
+				},
+				{
+					"title": "Chicken Parmesan",
+					"image": "https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Breaded chicken breast topped with marinara and melted mozzarella."
+				}
+			]
+		},
+		{
+			"category": "Desserts",
+			"dishes": [
+				{
+					"title": "Tiramisu",
+					"image": "https://images.pexels.com/photos/1366710/pexels-photo-1366710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Layers of coffee-soaked ladyfingers with mascarpone and cocoa."
+				},
+				{
+					"title": "Chocolate Lava Cake",
+					"image": "https://images.pexels.com/photos/27819685/pexels-photo-27819685/free-photo-of-a-chocolate-cake-with-ice-cream-and-strawberries.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Warm chocolate cake with a molten chocolate center."
+				}
+			]
+		},
+		{
+			"category": "Beverages",
+			"dishes": [
+				{
+					"title": "Iced Tea",
+					"image": "https://images.pexels.com/photos/1141626/pexels-photo-1141626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Freshly brewed iced tea with a hint of lemon."
+				},
+				{
+					"title": "Lemonade",
+					"image": "https://images.pexels.com/photos/2109099/pexels-photo-2109099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Refreshing lemonade made from freshly squeezed lemons."
+				},
+				{
+					"title": "Mango Smoothie",
+					"image": "https://images.pexels.com/photos/5817621/pexels-photo-5817621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "A creamy smoothie made with ripe mangoes and a touch of yogurt."
+				}
+			]
+		}
+	]
+}
