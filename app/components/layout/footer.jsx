@@ -35,7 +35,7 @@ function Footer() {
 							<a href="tel:+16475512566">+16475512566</a>
 						</li>
 						<li>
-							<a href="mailto:info@carolcares.com">info@carolcares.com</a>
+							<a href="mailto:info@carolmedicare.com">info@carolmedicare.com</a>
 						</li>
 					</ul>
 				</div>
@@ -44,17 +44,18 @@ function Footer() {
 						<li className="font-sans text-2xl font-bold tracking-wide pb-4">SOCIAL</li>
 						<li className="font-sans font-bold text-lg py-2">Find us on social</li>
 						<li>
-							<a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+							<a href="https://www.instagram.com/carolcare_med?igsh=OGM4OHRxNnIxZzFs" target="_blank" rel="noopener noreferrer">
 								instagram
 							</a>{" "}
 							•{" "}
-							<a href="http://fb.com" target="_blank" rel="noopener noreferrer">
+							<a href="https://www.facebook.com/profile.php?id=61566025814761&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
 								facebook
-							</a>{" "}
-							•{" "}
+							</a>
+							{/*	{" "}
+							 •{" "}
 							<a href="http://x.com" target="_blank" rel="noopener noreferrer">
 								X(twitter)
-							</a>
+							</a> */}
 						</li>
 					</ul>
 				</div>

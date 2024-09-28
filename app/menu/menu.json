@@ -1,6 +1,36 @@
 {
 	"menu": [
 		{
+			"category": "Soups & Stews",
+			"dishes": [
+				{
+					"title": "Egusi Soup",
+					"image": "/images/menu/egusi.jpg",
+					"description": "A thick, hearty soup made with ground melon seeds and vegetables."
+				},
+				{
+					"title": "Okro Soup",
+					"image": "/images/menu/eba-okoro.jpg",
+					"description": "A slimy, nutritious soup made with okra and assorted meats."
+				},
+				{
+					"title": "Vegetable Soup",
+					"image": "/images/menu/vegetable.jpg",
+					"description": "A healthy soup made with leafy green vegetables and meats."
+				},
+				{
+					"title": "Amala & Ewedu Soup",
+					"image": "/images/menu/amala.jpg",
+					"description": "Yam flour served with Ewedu soup, a traditional Yoruba dish."
+				},
+				{
+					"title": "What Soup",
+					"image": "/images/menu/egusi-akpu.jpg",
+					"description": "A flavorful soup made with assorted meats and spices."
+				}
+			]
+		},
+		{
 			"category": "Appetizers",
 			"dishes": [
 				{
@@ -52,6 +82,36 @@
 					"title": "Chicken Parmesan",
 					"image": "https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 					"description": "Breaded chicken breast topped with marinara and melted mozzarella."
+				},
+				{
+					"title": "Jollof Rice",
+					"image": "https://images.pexels.com/photos/13915043/pexels-photo-13915043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "A popular West African dish made with rice, tomatoes, and spices."
+				},
+				{
+					"title": "Fried Rice",
+					"image": "https://images.pexels.com/photos/3926133/pexels-photo-3926133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Rice stir-fried with vegetables and a mix of seasonings."
+				},
+				{
+					"title": "Native Rice",
+					"image": "/images/menu/chinese-rice-fish.jpg",
+					"description": "Traditional rice cooked with native spices and palm oil."
+				},
+				{
+					"title": "Spaghetti",
+					"image": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Classic spaghetti pasta cooked with a flavorful tomato sauce."
+				},
+				{
+					"title": "Chicken",
+					"image": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Grilled or fried chicken, served with sides of your choice."
+				},
+				{
+					"title": "Turkey",
+					"image": "https://images.pexels.com/photos/2673353/pexels-photo-2673353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+					"description": "Juicy roasted or fried turkey, perfectly seasoned."
 				}
 			]
 		},
@@ -67,6 +127,11 @@
 					"title": "Chocolate Lava Cake",
 					"image": "https://images.pexels.com/photos/27819685/pexels-photo-27819685/free-photo-of-a-chocolate-cake-with-ice-cream-and-strawberries.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 					"description": "Warm chocolate cake with a molten chocolate center."
+				},
+				{
+					"title": "Yam Porridge",
+					"image": "/images/menu/yam-porridge.jpg",
+					"description": "Creamy yam porridge cooked with spices and palm oil."
 				}
 			]
 		},

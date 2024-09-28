@@ -17,7 +17,7 @@ function ContactPage() {
 						<li className="font-extrabold tracking-wide pb-4 text-3xl lg:text-5xl text-center">9 Clutterbuck Lane</li>
 						<li className="font-extrabold tracking-wide pb-4 text-3xl lg:text-5xl text-center">Ajax Ontario, Canada</li>
 						<li className="font-extrabold tracking-wide pb-4 text-3xl lg:text-5xl text-center">+16475512566</li>
-						<li className="font-extrabold tracking-wide pb-4 text-3xl lg:text-5xl text-center">info@carolcares.com</li>
+						<li className="font-extrabold tracking-wide pb-4 text-3xl lg:text-5xl text-center">info@carolmedicare.com</li>
 					</ul>
 				</div>
 			</section>
