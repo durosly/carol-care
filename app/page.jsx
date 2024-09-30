@@ -155,10 +155,10 @@ export default function Home() {
 										</p>
 										<p className="mt-2 mb-6 leading-loose text-white">9 Clutterbuck Lane, Ajax Ontario, Canada</p>
 										<h2 className="text-3xl lg:text-4xl font-semibold text-white uppercase">Call us :</h2>
-										<p className="mt-2 mb-6 leading-loose text-white">+40 742 742 642</p>
+										<p className="mt-2 mb-6 leading-loose text-white">+16475512566</p>
 										<a
 											className="inline-block py-4 px-8 text-xs border bg-black text-white uppercase tracking-widest font-semibold leading-none hover:bg-white hover:border-white hover:text-black transition duration-300 rounded-md"
-											href="tel:+234123456789">
+											href="tel:+16475512566">
 											Call us now
 										</a>
 									</div>
