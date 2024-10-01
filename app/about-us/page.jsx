@@ -1,9 +1,10 @@
 import Image from "next/image";
 import CEOImg from "@/public/images/ceo.jpg";
+import Link from "next/link";
 
 function AboutUsPage() {
 	return (
-		<main className="font-sans px-10 mb-20 pt-10">
+		<main className="font-sans px-5 mb:px-10 mb-20 pt-10">
 			<div className="mb-20">
 				<div className="mb-20">
 					<h1 className="font-bold text-4xl mb-5">About Us</h1>
@@ -36,7 +37,7 @@ function AboutUsPage() {
 			</section>
 
 			<section className="py-14 lg:py-24 relative">
-				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
+				<div className="mx-auto max-w-7xl md:px-4 sm:px-6 lg:px-8 relative ">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
 						<div className="max-lg:mx-auto w-full  rounded-md overflow-hidden h-[300px] lg:h-[500px] relative lg:sticky top-5">
 							<Image src={CEOImg} alt="CEO" className="object-cover object-center" fill />
@@ -99,7 +100,7 @@ function AboutUsPage() {
 			</section>
 
 			<section className="py-14 lg:py-24 relative">
-				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
+				<div className="mx-auto max-w-7xl md:px-4 sm:px-6 lg:px-8 relative ">
 					<div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 ">
 						<div className="lg:pr-24 flex items-center">
 							<div className=" w-full">
@@ -159,15 +160,22 @@ function AboutUsPage() {
 			</section>
 
 			<section className="pt-20">
-				<div className="flex flex-wrap md:flex-nowrap w-full p-5">
-					<div className="flex flex-col p-5 items-center justify-center w-full lg:w-1/2">
+				<div className="flex flex-wrap max-md:gap-8 md:flex-nowrap w-full md:p-5">
+					<div className="flex flex-col md:p-5 items-center justify-center w-full lg:w-1/2">
 						<h2 className="text-4xl tracking-widest uppercase pb-5">Get in Touch</h2>
-						<p className="leading-8 mb-12">
+						<p className="leading-8 mb-5 md:mb-12">
 							We&apos;d love to hear from you! Whether you&apos;re interested in our catering, cleaning, or staffing services, or just
 							want to learn more about how we can assist, you can reach us through our social media platforms or contact us directly.
 						</p>
+						<div>
+							<Link
+								className="inline-flex h-12 max-md:text-sm animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 uppercase"
+								href="/feedback">
+								Leave us a message
+							</Link>
+						</div>
 					</div>
-					<div className="flex items-center justify-center p-5 mx-auto w-full h-52 lg:h-auto lg:w-1/2 relative rounded-md overflow-hidden">
+					<div className="flex border items-center justify-center p-5 mx-auto w-full h-52 lg:h-auto lg:w-1/2 relative rounded-md overflow-hidden">
 						<Image
 							alt="Menu Link Image"
 							className="object-cover"
